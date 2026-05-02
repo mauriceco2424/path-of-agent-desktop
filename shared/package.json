@@ -1,0 +1,10 @@
+{
+  "name": "@path-of-agent/shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./types/index.js",
+  "types": "./types/index.ts",
+  "exports": {
+    "./*": "./*"
+  }
+}

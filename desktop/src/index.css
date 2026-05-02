@@ -1,0 +1,1727 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+
+    /* Premium Gaming Theme - Onyx Gold */
+    --bg-primary: #0a0a0f;
+    --bg-secondary: #12121a;
+    --bg-tertiary: #1a1a24;
+    --bg-hover: #22222e;
+    --text-primary: #f0f0f5;
+    --text-secondary: #a0a0b0;
+    --text-muted: #606070;
+    --accent-gold: #fbbf24;
+    --accent-gold-dim: #b45309;
+    --pathway-skills: #3b82f6;
+    --pathway-skills-glow: rgba(59, 130, 246, 0.2);
+    --pathway-tree: #a855f7;
+    --pathway-tree-glow: rgba(168, 85, 247, 0.2);
+    --pathway-gear: #14b8a6;
+    --pathway-gear-glow: rgba(20, 184, 166, 0.2);
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+    --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    --glow-gold: 0 0 20px rgba(251, 191, 36, 0.3);
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+/* Brightness levels — CSS filter uniformly brightens the entire UI */
+html[data-brightness="1"] { filter: brightness(1.1); }
+html[data-brightness="2"] { filter: brightness(1.2); }
+html[data-brightness="3"] { filter: brightness(1.35); }
+html[data-brightness="4"] { filter: brightness(1.5); }
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    /* Apply dark mode by default for desktop */
+    @apply dark;
+    background-color: var(--bg-primary);
+    overscroll-behavior: none;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: linear-gradient(180deg, var(--bg-primary) 0%, #050508 100%);
+    min-height: 100vh;
+    overscroll-behavior: none;
+  }
+}
+
+@layer utilities {
+  /* Custom scrollbar styling for webkit browsers (Chrome, Safari, Edge) */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar-thumb-slate-600::-webkit-scrollbar-thumb {
+    background-color: rgb(71 85 105);
+    border-radius: 4px;
+  }
+
+  .scrollbar-thumb-slate-600:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(100 116 139);
+  }
+
+  .scrollbar-track-slate-800::-webkit-scrollbar-track {
+    background-color: rgb(30 41 59);
+    border-radius: 4px;
+  }
+
+  /* Dark fantasy scrollbar - refined slate theme
+     Subtle, near-invisible scrollbars that don't compete with content */
+  .scrollbar-fantasy::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-fantasy::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-fantasy::-webkit-scrollbar-thumb {
+    background-color: rgba(71, 85, 105, 0.4);
+    border-radius: 3px;
+    transition: background-color 0.2s ease;
+  }
+
+  .scrollbar-fantasy::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(100, 116, 139, 0.6);
+  }
+
+  /* Corner piece (where horizontal and vertical scrollbars meet) */
+  .scrollbar-fantasy::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  /* Firefox scrollbar styling */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(71, 85, 105, 0.4) transparent;
+  }
+
+  .scrollbar-fantasy {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(71, 85, 105, 0.4) transparent;
+  }
+
+  /* Auto-hiding scrollbar - only visible on hover/scroll
+     Apply to containers where you want scrollbars to fade in */
+  .scrollbar-autohide::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  .scrollbar-autohide:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(71, 85, 105, 0.4);
+  }
+
+  .scrollbar-autohide:hover::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(100, 116, 139, 0.6);
+  }
+
+  /* Smooth scrolling behavior */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+
+  /* Hide scrollbar completely */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+}
+
+/* ============================================
+   Font Scale System
+   Root font-size (14/16/18px) is set on <html> via JS based on data-font-scale.
+   All rem-based sizes cascade automatically. These CSS vars are fixed rem values
+   for prose/tool-body areas only (no per-scale overrides needed).
+   ============================================ */
+
+:root { --fs-prose: 0.9375rem; --fs-prose-sm: 0.8125rem; --fs-h1: 1.125rem; --fs-h2: 0.9375rem; --fs-h3: 0.875rem; --fs-h4: 0.8125rem; --fs-tool: 0.875rem; --fs-tool-sm: 0.75rem; }
+
+/* ============================================
+   Prose Styles for LLM Markdown Rendering
+   ============================================ */
+
+.prose {
+  color: var(--text-primary);
+  font-size: var(--fs-prose, 0.9375rem);
+}
+
+/* ============================================
+   Prose Headers - Exile's Codex Style
+   Ancient tome aesthetic for LLM analysis output
+   ============================================ */
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* H2 - Primary sections (numbered headers like "1) Skill setup") */
+.prose h2 {
+  color: #f59e0b; /* amber-500 */
+  font-size: var(--fs-h2, 0.9375rem);
+  padding: 10px 14px 10px 14px;
+  margin: 24px -16px 16px -16px; /* Bleed to card edges */
+  background: linear-gradient(90deg,
+    rgba(251, 191, 36, 0.12) 0%,
+    rgba(251, 191, 36, 0.04) 40%,
+    transparent 70%);
+  border-left: 3px solid #fbbf24;
+  border-top: 1px solid rgba(251, 191, 36, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 20px rgba(251, 191, 36, 0.3);
+}
+
+.prose h2:first-child {
+  margin-top: 0;
+}
+
+/* H3 - Subsections (e.g., "Core 6-link", "Secondary damage") */
+.prose h3 {
+  color: #fcd34d; /* amber-300 */
+  font-size: var(--fs-h3, 0.875rem);
+  font-weight: 500;
+  padding: 8px 0 8px 20px;
+  margin: 20px 0 12px 0;
+  text-shadow: 0 0 12px rgba(252, 211, 77, 0.25);
+}
+
+/* Runic diamond marker for H3 */
+.prose h3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(135deg, #fbbf24 0%, #b45309 100%);
+  box-shadow: 0 0 8px rgba(251, 191, 36, 0.5);
+}
+
+.prose h3:first-child {
+  margin-top: 0;
+}
+
+/* H4 - Minor headers / labels */
+.prose h4 {
+  color: #d97706; /* amber-600 */
+  font-size: var(--fs-h4, 0.8125rem);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 6px 0;
+  margin: 16px 0 8px 0;
+  opacity: 0.9;
+}
+
+.prose h4:first-child {
+  margin-top: 0;
+}
+
+/* H1 - Rare, reserved for major titles */
+.prose h1 {
+  color: #fbbf24; /* amber-400 */
+  font-size: var(--fs-h1, 1.125rem);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-align: center;
+  padding: 14px 0;
+  margin: 0 -16px 20px -16px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(251, 191, 36, 0.08) 20%,
+    rgba(251, 191, 36, 0.08) 80%,
+    transparent 100%);
+  border-top: 1px solid rgba(251, 191, 36, 0.25);
+  border-bottom: 1px solid rgba(251, 191, 36, 0.25);
+  text-shadow:
+    0 0 30px rgba(251, 191, 36, 0.5),
+    0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.prose h1:first-child {
+  margin-top: 0;
+}
+
+/* ============================================
+   Prose Body - Exile's Tome Style
+   ============================================ */
+
+/* Warmer base text color */
+.prose p,
+.prose li {
+  color: #e2e0d8; /* Warm parchment white, not cold slate */
+  margin-bottom: 0.75rem;
+  line-height: 1.65;
+}
+
+/* Bold text with amber accent - NO glow (glow is reserved for semantic tags) */
+.prose strong {
+  color: #fcd34d; /* amber-300 */
+  font-weight: 600;
+}
+
+/* Emphasis with subtle underline glow */
+.prose em {
+  font-style: normal;
+  font-weight: 500;
+  color: #fde68a; /* amber-200 */
+  border-bottom: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+/* Custom bullet points - small diamonds */
+.prose ul {
+  list-style: none;
+  padding-left: 1.25rem;
+  margin-bottom: 0.875rem;
+}
+
+.prose ul > li {
+  position: relative;
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose ul > li::before {
+  content: '';
+  position: absolute;
+  left: -1rem;
+  top: 0.55em;
+  width: 5px;
+  height: 5px;
+  background: linear-gradient(135deg, #fbbf24 0%, #92400e 100%);
+  transform: rotate(45deg);
+  box-shadow: 0 0 4px rgba(251, 191, 36, 0.5);
+}
+
+/* Nested bullets - smaller, dimmer */
+.prose ul ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
+.prose ul ul > li::before {
+  width: 4px;
+  height: 4px;
+  opacity: 0.7;
+  box-shadow: 0 0 3px rgba(251, 191, 36, 0.3);
+}
+
+/* Numbered lists with gold Cinzel numbers */
+.prose ol {
+  list-style: none;
+  counter-reset: item;
+  padding-left: 1.75rem;
+  margin-bottom: 0.875rem;
+}
+
+.prose ol > li {
+  counter-increment: item;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.prose ol > li::before {
+  content: counter(item) ".";
+  position: absolute;
+  left: -1.75rem;
+  color: #fbbf24;
+  font-weight: 600;
+  font-family: 'Cinzel', serif;
+  font-size: 0.95em;
+  text-shadow: 0 0 6px rgba(251, 191, 36, 0.3);
+}
+
+/* Consecutive <ol> elements (split by markdown parser) should continue numbering */
+.prose ol + ol {
+  counter-reset: none;
+}
+
+/* Nested ordered lists */
+.prose ol ol,
+.prose ul ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+/* Horizontal rules as ornate dividers */
+.prose hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(251, 191, 36, 0.5) 20%,
+    rgba(251, 191, 36, 0.5) 80%,
+    transparent 100%);
+  margin: 1.5rem 0;
+}
+
+/* Blockquotes as callout boxes */
+.prose blockquote {
+  border-left: 3px solid #b45309;
+  background: linear-gradient(90deg,
+    rgba(180, 83, 9, 0.15) 0%,
+    transparent 60%);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  font-style: normal;
+  color: #fde68a;
+  border-radius: 0 6px 6px 0;
+}
+
+.prose blockquote p {
+  margin-bottom: 0;
+}
+
+/* Inline code with warm background */
+.prose code:not(pre code) {
+  background: rgba(180, 83, 9, 0.2);
+  border: 1px solid rgba(251, 191, 36, 0.2);
+  color: #fcd34d;
+  padding: 0.125rem 0.375rem;
+  border-radius: 3px;
+  font-size: 0.875em;
+}
+
+/* Code blocks */
+.prose pre {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(251, 191, 36, 0.15);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+.prose pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #e2e0d8;
+}
+
+/* Links with amber styling */
+.prose a {
+  color: #fbbf24;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+
+.prose a:hover {
+  color: #fcd34d;
+}
+
+/* Prevent headers inside lists from getting bullet markers */
+.prose li > h3,
+.prose li > h4 {
+  margin-left: -0.5rem;
+}
+
+.prose li > h3::before {
+  left: -0.5rem;
+}
+
+/* ============================================
+   Tool Card Font Scaling
+   Overrides Tailwind text-sm/text-xs inside tool result bodies
+   ============================================ */
+
+.tool-body .text-sm { font-size: var(--fs-tool, 0.875rem); }
+.tool-body .text-xs { font-size: var(--fs-tool-sm, 0.75rem); }
+
+/* ============================================
+   Premium Gaming Design System - Onyx Gold
+   ============================================ */
+
+/* Build analysis card content padding */
+details > *:not(summary) {
+  padding: 0 16px 12px 16px;
+}
+
+/* ============================================
+   Pathway Cards - Premium Enhanced
+   ============================================ */
+
+.pathway {
+  margin: 16px 0;
+  padding: 16px 20px;
+  border-radius: 12px;
+  border-left: 4px solid;
+  background: var(--bg-tertiary);
+  box-shadow: var(--shadow-md);
+  transition: all 0.2s ease;
+}
+
+.pathway:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Pathway colors match their pillar in Build Analysis */
+.pathway-skills {
+  border-color: var(--pathway-skills);
+  background: rgba(0, 0, 0, 0.25);
+  color: #bfdbfe;
+}
+
+.pathway-passives,
+.pathway-tree {
+  border-color: var(--pathway-tree);
+  background: rgba(0, 0, 0, 0.25);
+  color: #e9d5ff;
+}
+
+.pathway-gear {
+  border-color: var(--pathway-gear);
+  background: rgba(0, 0, 0, 0.25);
+  color: #99f6e4;
+}
+
+.pathway-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* CRITICAL: Fix for huge SVG icons */
+.pathway-icon {
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  min-height: 18px;
+  max-width: 18px;
+  max-height: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 4px currentColor);
+}
+
+.pathway-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.priority-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(51, 65, 85, 0.5);
+  border: 1px solid rgba(251, 191, 36, 0.2);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  margin-right: 8px;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 8px rgba(51, 65, 85, 0.5);
+}
+
+.pathway-pillar,
+.pillar-label {
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  opacity: 0.7;
+  margin-right: 8px;
+}
+
+.pathway-title,
+.pillar-title {
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.pathway-body p {
+  margin: 0;
+}
+
+.pathway-issues {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 6px !important;
+}
+
+.pathway-issues em {
+  font-style: normal;
+  color: var(--accent-gold);
+  font-weight: 500;
+}
+
+.pathway-next {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  font-style: italic;
+}
+
+/* ============================================
+   Trade Result Cards - Premium Enhanced
+   ============================================ */
+
+.trade-summary {
+  margin: 16px 0;
+  padding: 16px 20px;
+  border-radius: 12px;
+  border-left: 4px solid var(--pathway-gear);
+  background: linear-gradient(135deg, var(--bg-tertiary) 0%, var(--pathway-gear-glow) 100%);
+  box-shadow: var(--shadow-md);
+  transition: all 0.2s ease;
+}
+
+.trade-summary:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-lg);
+}
+
+.trade-summary-text {
+  font-size: 0.8125rem;
+  color: #99f6e4;
+  margin: 0;
+}
+
+.trade-item {
+  margin: 8px 0;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border-left: 4px solid var(--pathway-gear);
+  background: var(--bg-tertiary);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+}
+
+.trade-item:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Rank-specific styling with premium gradients */
+.trade-rank-1 {
+  background: linear-gradient(135deg, var(--bg-tertiary) 0%, rgba(251, 191, 36, 0.15) 100%);
+  border-color: var(--accent-gold);
+  box-shadow: var(--shadow-sm), var(--glow-gold);
+}
+
+.trade-rank-2 {
+  background: linear-gradient(135deg, var(--bg-tertiary) 0%, rgba(148, 163, 184, 0.1) 100%);
+  border-color: #94a3b8;
+}
+
+.trade-rank-3 {
+  background: linear-gradient(135deg, var(--bg-tertiary) 0%, rgba(251, 146, 60, 0.1) 100%);
+  border-color: #fb923c;
+}
+
+.trade-item-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.trade-rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: rgba(51, 65, 85, 0.5);
+  border: 1px solid rgba(251, 191, 36, 0.2);
+}
+
+.trade-rank-1 .trade-rank-badge {
+  background: rgba(251, 191, 36, 0.25);
+  color: var(--accent-gold);
+  border-color: rgba(251, 191, 36, 0.5);
+  box-shadow: 0 0 8px rgba(251, 191, 36, 0.3);
+}
+
+.trade-rank-2 .trade-rank-badge {
+  background: rgba(148, 163, 184, 0.2);
+  color: #94a3b8;
+  border-color: rgba(148, 163, 184, 0.4);
+}
+
+.trade-rank-3 .trade-rank-badge {
+  background: rgba(251, 146, 60, 0.2);
+  color: #fb923c;
+  border-color: rgba(251, 146, 60, 0.4);
+}
+
+.trade-item-name {
+  flex: 1;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #99f6e4;
+}
+
+.trade-item-price {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--accent-gold);
+}
+
+.trade-item-stats {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
+  font-size: 0.75rem;
+}
+
+.trade-stat-positive {
+  color: #22c55e;
+  font-weight: 500;
+}
+
+.trade-stat-negative {
+  color: #ef4444;
+  font-weight: 500;
+}
+
+.trade-item-body {
+  font-size: 0.8125rem;
+  color: var(--text-primary);
+  opacity: 0.9;
+}
+
+.trade-explanation {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.trade-explanation em {
+  font-style: normal;
+  color: var(--accent-gold);
+  font-weight: 500;
+}
+
+.trade-view-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: rgba(20, 184, 166, 0.15);
+  border: 1px solid rgba(20, 184, 166, 0.3);
+  color: #99f6e4;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.trade-view-all:hover {
+  background: rgba(20, 184, 166, 0.25);
+  border-color: rgba(20, 184, 166, 0.5);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ============================================
+   Chat Input - Premium Styling
+   ============================================ */
+
+.chat-input-container {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(51, 65, 85, 0.4);
+  border-radius: 16px;
+  box-shadow: var(--shadow-inset);
+  transition: all 0.2s ease;
+}
+
+.chat-input-container:focus-within {
+  border-color: var(--accent-gold);
+  box-shadow: var(--shadow-inset), var(--glow-gold);
+}
+
+.chat-input-container:hover:not(:focus-within) {
+  border-color: rgba(51, 65, 85, 0.6);
+}
+
+/* ============================================
+   Message Bubbles - Premium Styling
+   ============================================ */
+
+/* Message bubble styles removed - using inline Tailwind classes instead */
+/* .message-assistant {
+  background: var(--bg-tertiary);
+  border-radius: 16px 16px 16px 4px;
+  box-shadow: var(--shadow-sm);
+  padding: 16px;
+}
+
+.message-user {
+  background: linear-gradient(135deg, #1e3a5f 0%, #0f2744 100%);
+  border-radius: 16px 16px 4px 16px;
+  box-shadow: var(--shadow-sm);
+  padding: 16px;
+} */
+
+/* ============================================
+   Additional Premium Enhancements
+   ============================================ */
+
+/* Card containers */
+.premium-card {
+  background: var(--bg-tertiary);
+  border: 1px solid rgba(51, 65, 85, 0.3);
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  transition: all 0.2s ease;
+}
+
+.premium-card:hover {
+  border-color: rgba(51, 65, 85, 0.5);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Improvement card emphasis styling */
+.improvement-title em,
+.improvement-evidence em {
+  font-style: normal;
+  font-weight: 500;
+  color: #fbbf24; /* amber-400 for emphasis - matches pathway styling */
+}
+
+/* Gold accent elements */
+.accent-gold {
+  color: var(--accent-gold);
+}
+
+/* Subtle dividers */
+.divider-subtle {
+  border-color: rgba(51, 65, 85, 0.3);
+}
+
+/* Glow effects for important elements */
+.glow-gold {
+  box-shadow: var(--glow-gold);
+}
+
+.glow-skills {
+  box-shadow: 0 0 20px var(--pathway-skills-glow);
+}
+
+.glow-tree {
+  box-shadow: 0 0 20px var(--pathway-tree-glow);
+}
+
+.glow-gear {
+  box-shadow: 0 0 20px var(--pathway-gear-glow);
+}
+
+/* Focus states with gold accent */
+.focus-gold:focus {
+  outline: none;
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.2);
+}
+
+/* ============================================
+   Pathway Selection Cards - Interactive
+   ============================================ */
+
+.pathway-card-interactive {
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.pathway-card-interactive::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.pathway-card-interactive:hover {
+  transform: scale(1.02) translateY(-6px);
+}
+
+.pathway-card-interactive:hover::before {
+  opacity: 1;
+}
+
+.pathway-card-interactive:active {
+  transform: scale(0.98);
+}
+
+/* Skills card hover glow */
+.pathway-card-skills::before {
+  box-shadow: 0 8px 40px rgba(59, 130, 246, 0.35);
+}
+
+.pathway-card-skills:hover {
+  border-color: var(--pathway-skills);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.25), inset 0 0 30px rgba(59, 130, 246, 0.05);
+}
+
+/* Tree card hover glow */
+.pathway-card-tree::before {
+  box-shadow: 0 8px 40px rgba(168, 85, 247, 0.35);
+}
+
+.pathway-card-tree:hover {
+  border-color: var(--pathway-tree);
+  box-shadow: 0 12px 40px rgba(168, 85, 247, 0.25), inset 0 0 30px rgba(168, 85, 247, 0.05);
+}
+
+/* Gear card hover glow */
+.pathway-card-gear::before {
+  box-shadow: 0 8px 40px rgba(20, 184, 166, 0.35);
+}
+
+.pathway-card-gear:hover {
+  border-color: var(--pathway-gear);
+  box-shadow: 0 12px 40px rgba(20, 184, 166, 0.25), inset 0 0 30px rgba(20, 184, 166, 0.05);
+}
+
+/* Priority badge pulsing animation for top priority */
+.priority-badge-pulse {
+  animation: priority-pulse 2s ease-in-out infinite;
+}
+
+@keyframes priority-pulse {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(251, 191, 36, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(251, 191, 36, 0.6);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* ============================================
+   Pathway Card Text Highlighting
+   ============================================ */
+
+/* Section header colors - semantic meaning */
+.pathway-strengths strong {
+  color: #4ade80; /* green-400 - positive */
+  font-weight: 600;
+}
+
+.pathway-weaknesses strong {
+  color: #fb923c; /* orange-400 - needs attention */
+  font-weight: 600;
+}
+
+/* Fallback for pathway-content strong (non-semantic sections) */
+.pathway-content strong {
+  font-weight: 600;
+  color: #fde68a; /* amber-200 */
+}
+
+/* In-text emphasis - amber for highlighted terms */
+.pathway-content em,
+.pathway-strengths em,
+.pathway-weaknesses em {
+  font-style: normal;
+  color: #fbbf24; /* amber-400 */
+  font-weight: 500;
+}
+
+/* Bullet list styling for pathway sections */
+.pathway-strengths ul,
+.pathway-weaknesses ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.pathway-strengths li,
+.pathway-weaknesses li {
+  margin: 4px 0;
+  color: #cbd5e1; /* slate-300 */
+  line-height: 1.5;
+}
+
+/* Bullet marker colors - inherit from section or use neutral */
+.pathway-strengths li::marker {
+  color: #4ade80; /* green-400 */
+}
+
+.pathway-weaknesses li::marker {
+  color: #fb923c; /* orange-400 */
+}
+
+/* ============================================
+   Pathway Category Labels (OFF/DEF/UTL)
+   ============================================ */
+
+/* Category containers - subtle grouping */
+.category-offensive,
+.category-defensive,
+.category-utility {
+  margin: 6px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+/* Category label badges - now with icons */
+.cat-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 18px;
+  padding: 2px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 2px; /* Align with first line of list items */
+}
+
+.cat-label svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* Offensive - red/orange tint (damage) */
+.category-offensive .cat-label {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171; /* red-400 */
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Defensive - blue/teal tint (protection) */
+.category-defensive .cat-label {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa; /* blue-400 */
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+/* Utility - yellow/amber tint (utility) */
+.category-utility .cat-label {
+  background: rgba(251, 191, 36, 0.15);
+  color: #fbbf24; /* amber-400 */
+  border: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+/* Category list styling */
+.category-offensive ul,
+.category-defensive ul,
+.category-utility ul {
+  margin: 0;
+  padding-left: 18px;
+  flex: 1;
+}
+
+.category-offensive li,
+.category-defensive li,
+.category-utility li {
+  margin: 2px 0;
+  color: #cbd5e1; /* slate-300 */
+  line-height: 1.4;
+  font-size: 0.8125rem;
+}
+
+/* Category list markers match label colors */
+.category-offensive li::marker {
+  color: #f87171; /* red-400 */
+}
+
+.category-defensive li::marker {
+  color: #60a5fa; /* blue-400 */
+}
+
+.category-utility li::marker {
+  color: #fbbf24; /* amber-400 */
+}
+
+/* ============================================
+   Critical Pulse Animation for Equipment Grid
+   ============================================ */
+
+/* Critical slot pulsing animation */
+@keyframes criticalPulse {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(239, 68, 68, 0.6);
+  }
+}
+
+.critical-pulse {
+  animation: criticalPulse 1.5s ease-in-out infinite;
+}
+
+/* Neon glow utility for score gauges */
+.neon-glow-red {
+  filter: drop-shadow(0 0 8px rgba(239, 68, 68, 0.5));
+}
+
+.neon-glow-yellow {
+  filter: drop-shadow(0 0 8px rgba(234, 179, 8, 0.5));
+}
+
+.neon-glow-green {
+  filter: drop-shadow(0 0 8px rgba(34, 197, 94, 0.5));
+}
+
+.neon-glow-gold {
+  filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.6));
+}
+
+/* ============================================
+   PoE Atmosphere Background
+   ============================================ */
+
+.bg-poe-atmosphere {
+  position: relative;
+  background: linear-gradient(180deg, #020617 0%, #0f172a 50%, #020617 100%);
+}
+
+.bg-poe-atmosphere::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 2px 2px, rgba(245, 158, 11, 0.3) 1px, transparent 0);
+  background-size: 32px 32px;
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+.bg-poe-atmosphere::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 0%, rgba(2, 6, 23, 0.4) 70%, rgba(2, 6, 23, 0.8) 100%);
+  pointer-events: none;
+}
+
+/* Ensure content appears above the pseudo-elements */
+.bg-poe-atmosphere > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================
+   Display Font Utility (Cinzel)
+   ============================================ */
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+/* ============================================
+   Item Rarity Glow Effects for Gear Grid
+   ============================================ */
+
+/* Unique item glow - DRAMATIC orange/amber metallic PoE style */
+@keyframes uniquePulse {
+  0%, 100% {
+    box-shadow:
+      0 0 12px rgba(249, 115, 22, 0.6),
+      0 0 24px rgba(249, 115, 22, 0.3),
+      0 0 40px rgba(249, 115, 22, 0.15),
+      inset 0 0 10px rgba(249, 115, 22, 0.15);
+  }
+  50% {
+    box-shadow:
+      0 0 18px rgba(249, 115, 22, 0.8),
+      0 0 36px rgba(249, 115, 22, 0.45),
+      0 0 60px rgba(249, 115, 22, 0.2),
+      inset 0 0 15px rgba(249, 115, 22, 0.2);
+  }
+}
+
+.item-unique-glow {
+  border: 2px solid #f97316 !important;
+  background: linear-gradient(135deg,
+    rgba(249, 115, 22, 0.25) 0%,
+    rgba(180, 83, 9, 0.2) 50%,
+    rgba(249, 115, 22, 0.15) 100%) !important;
+  animation: uniquePulse 2.5s ease-in-out infinite;
+  position: relative;
+}
+
+/* Inner highlight for unique items */
+.item-unique-glow::after {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: linear-gradient(180deg,
+    rgba(255, 200, 100, 0.1) 0%,
+    transparent 30%);
+  pointer-events: none;
+}
+
+.item-unique-glow:hover {
+  box-shadow:
+    0 0 25px rgba(249, 115, 22, 0.8),
+    0 0 50px rgba(249, 115, 22, 0.5),
+    0 0 80px rgba(249, 115, 22, 0.25),
+    inset 0 0 20px rgba(249, 115, 22, 0.25) !important;
+  animation: none;
+  transform: scale(1.02);
+}
+
+/* Rare item glow - yellow/gold subtle */
+.item-rare-glow {
+  box-shadow: 0 0 8px rgba(234, 179, 8, 0.4);
+  border: 2px solid #eab308 !important;
+  background: linear-gradient(135deg,
+    rgba(234, 179, 8, 0.1) 0%,
+    rgba(202, 138, 4, 0.08) 100%) !important;
+}
+
+.item-rare-glow:hover {
+  box-shadow: 0 0 12px rgba(234, 179, 8, 0.5);
+}
+
+/* Magic item glow - blue subtle */
+.item-magic-glow {
+  box-shadow: 0 0 6px rgba(59, 130, 246, 0.3);
+  border: 2px solid #3b82f6 !important;
+}
+
+.item-magic-glow:hover {
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+/* ============================================
+   Dark Fantasy UI Framework - PoE Authentic
+   ============================================ */
+
+/* Metallic frame border - premium panel container */
+.frame-metallic {
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  box-shadow:
+    inset 0 0 20px rgba(0, 0, 0, 0.3),
+    0 0 10px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(180deg,
+    rgba(15, 23, 42, 0.35) 0%,
+    rgba(2, 6, 23, 0.4) 100%);
+}
+
+.frame-metallic-subtle {
+  border: 1px solid rgba(251, 191, 36, 0.15);
+  box-shadow:
+    inset 0 0 30px rgba(0, 0, 0, 0.2),
+    0 0 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(180deg,
+    rgba(15, 23, 42, 0.3) 0%,
+    rgba(2, 6, 23, 0.35) 100%);
+}
+
+/* Translucent metallic frames - allows cosmic background to show through */
+.frame-metallic-translucent {
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  box-shadow:
+    inset 0 0 20px rgba(0, 0, 0, 0.2),
+    0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(180deg,
+    rgba(15, 23, 42, 0.3) 0%,
+    rgba(2, 6, 23, 0.35) 100%);
+  backdrop-filter: blur(4px);
+}
+
+.frame-metallic-subtle-translucent {
+  border: 1px solid rgba(251, 191, 36, 0.2);
+  box-shadow:
+    inset 0 0 30px rgba(0, 0, 0, 0.15),
+    0 0 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(180deg,
+    rgba(15, 23, 42, 0.28) 0%,
+    rgba(2, 6, 23, 0.32) 100%);
+  backdrop-filter: blur(4px);
+}
+
+/* Panel header bar - gradient accent line */
+.panel-header {
+  background: linear-gradient(90deg,
+    rgba(251, 191, 36, 0.1) 0%,
+    transparent 50%,
+    rgba(251, 191, 36, 0.1) 100%);
+  border-bottom: 1px solid rgba(251, 191, 36, 0.2);
+}
+
+.panel-header-solid {
+  background: linear-gradient(180deg,
+    rgba(251, 191, 36, 0.06) 0%,
+    rgba(15, 23, 42, 0.3) 100%);
+  border-bottom: 1px solid rgba(251, 191, 36, 0.25);
+}
+
+.panel-header-solid-translucent {
+  background: linear-gradient(180deg,
+    rgba(251, 191, 36, 0.06) 0%,
+    rgba(15, 23, 42, 0.25) 100%);
+  border-bottom: 1px solid rgba(251, 191, 36, 0.2);
+}
+
+/* Decorative dividers */
+.divider-ornate {
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(251, 191, 36, 0.4) 50%,
+    transparent 100%);
+}
+
+.divider-ornate-vertical {
+  width: 1px;
+  background: linear-gradient(180deg,
+    transparent 0%,
+    rgba(251, 191, 36, 0.4) 50%,
+    transparent 100%);
+}
+
+/* Forge-style inner shadow for depth */
+.forge-inset {
+  box-shadow:
+    inset 0 2px 8px rgba(0, 0, 0, 0.6),
+    inset 0 -1px 4px rgba(251, 191, 36, 0.05);
+}
+
+/* Game menu tab styling */
+.tab-metallic {
+  position: relative;
+  background: linear-gradient(180deg,
+    rgba(30, 41, 59, 0.25) 0%,
+    rgba(15, 23, 42, 0.3) 100%);
+  border: 1px solid rgba(71, 85, 105, 0.3);
+  transition: all 0.2s ease;
+}
+
+.tab-metallic:hover {
+  background: linear-gradient(180deg,
+    rgba(45, 55, 72, 0.35) 0%,
+    rgba(30, 41, 59, 0.4) 100%);
+  border-color: rgba(100, 116, 139, 0.4);
+}
+
+.tab-metallic-active {
+  background: linear-gradient(180deg,
+    rgba(251, 191, 36, 0.12) 0%,
+    rgba(15, 23, 42, 0.35) 100%);
+  border-color: rgba(251, 191, 36, 0.5);
+  box-shadow:
+    0 0 20px rgba(251, 191, 36, 0.15),
+    inset 0 1px 0 rgba(251, 191, 36, 0.2);
+}
+
+.tab-metallic-active::before {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 2px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(251, 191, 36, 0.8) 50%,
+    transparent 100%);
+}
+
+/* Stat HUD styling - game-like stat displays */
+.stat-hud {
+  background: linear-gradient(135deg,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(15, 23, 42, 0.4) 100%);
+  border: 1px solid rgba(71, 85, 105, 0.3);
+  border-radius: 6px;
+  backdrop-filter: blur(4px);
+}
+
+.stat-hud-accent {
+  background: linear-gradient(135deg,
+    rgba(251, 191, 36, 0.08) 0%,
+    rgba(0, 0, 0, 0.2) 100%);
+  border: 1px solid rgba(251, 191, 36, 0.25);
+  border-radius: 6px;
+}
+
+/* Premium card with metallic border */
+.card-forge {
+  background: rgba(2, 6, 23, 0.88);
+  border: 1px solid rgba(71, 85, 105, 0.3);
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  transition: all 0.3s ease;
+}
+
+.card-forge:hover {
+  border-color: rgba(251, 191, 36, 0.4);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.5),
+    0 0 30px rgba(251, 191, 36, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Opaque variant for tooltips/popovers that must remain readable */
+.card-forge-opaque {
+  background: rgba(2, 6, 23, 0.95);
+  border: 1px solid rgba(71, 85, 105, 0.4);
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+/* Ambient corner accents */
+.corner-accent {
+  position: relative;
+}
+
+.corner-accent::before,
+.corner-accent::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  pointer-events: none;
+}
+
+.corner-accent::before {
+  top: -1px;
+  left: -1px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.corner-accent::after {
+  bottom: -1px;
+  right: -1px;
+  border-left: none;
+  border-top: none;
+}
+
+/* ── Gear Panel Styles ────────────────────────────── */
+
+/* Gear panel outer frame - metallic display case */
+.gear-frame {
+  background: linear-gradient(135deg, rgba(26,24,20,0.95), rgba(12,10,8,0.98));
+  border: 1px solid rgba(58,53,48,0.5);
+  box-shadow:
+    inset 0 0 0 1px rgba(251,191,36,0.06),
+    0 4px 24px rgba(0,0,0,0.6);
+}
+
+/* Corner filigree marks on slots (PoE item frame corners) */
+.slot-corners::before,
+.slot-corners::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  pointer-events: none;
+  z-index: 20;
+}
+.slot-corners::before {
+  top: 1px;
+  left: 1px;
+  border-top: 1px solid rgba(251,191,36,0.25);
+  border-left: 1px solid rgba(251,191,36,0.25);
+}
+.slot-corners::after {
+  bottom: 1px;
+  right: 1px;
+  border-bottom: 1px solid rgba(251,191,36,0.25);
+  border-right: 1px solid rgba(251,191,36,0.25);
+}
+
+/* Unique item slot glow pulse */
+.slot-unique-pulse {
+  animation: slotUniquePulse 3s ease-in-out infinite;
+}
+
+@keyframes slotUniquePulse {
+  0%, 100% { box-shadow: 0 0 6px rgba(249,115,22,0.25); }
+  50% { box-shadow: 0 0 12px rgba(249,115,22,0.45); }
+}
+
+/* Flask shelf divider */
+.flask-shelf-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(251,191,36,0.3), transparent);
+}
+
+/* Flask containment frame - subtle teal-tinted border */
+.flask-frame {
+  background: linear-gradient(135deg, rgba(15,23,42,0.6), rgba(8,12,20,0.7));
+  border: 1px solid rgba(45,212,191,0.12);
+  box-shadow:
+    inset 0 0 0 1px rgba(45,212,191,0.04),
+    0 2px 12px rgba(0,0,0,0.4);
+}
+
+/* Embossed section header */
+.section-embossed {
+  background: linear-gradient(90deg,
+    rgba(251, 191, 36, 0.08) 0%,
+    transparent 30%,
+    transparent 70%,
+    rgba(251, 191, 36, 0.08) 100%);
+  border-top: 1px solid rgba(251, 191, 36, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 6px 12px;
+}
+
+/* Embossed section header -- cyan variant for ladder data */
+.section-embossed-cyan {
+  background: linear-gradient(90deg,
+    rgba(34, 211, 238, 0.06) 0%,
+    transparent 30%,
+    transparent 70%,
+    rgba(34, 211, 238, 0.06) 100%);
+  border-top: 1px solid rgba(34, 211, 238, 0.18);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 6px 12px;
+}
+
+/* Icon glow effect */
+.icon-glow {
+  filter: drop-shadow(0 0 4px currentColor);
+}
+
+.icon-glow-gold {
+  filter: drop-shadow(0 0 6px rgba(251, 191, 36, 0.6));
+}
+
+/* Text with subtle glow */
+.text-glow-gold {
+  text-shadow: 0 0 10px rgba(251, 191, 36, 0.4);
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 8px rgba(251, 191, 36, 0.3);
+}
+
+.text-glow-violet {
+  text-shadow: 0 0 8px rgba(167, 139, 250, 0.4);
+}
+
+.text-glow-sky {
+  text-shadow: 0 0 8px rgba(125, 211, 252, 0.4);
+}
+
+.text-glow-indigo {
+  text-shadow: 0 0 8px rgba(165, 180, 252, 0.4);
+}
+
+/* Animated border glow */
+@keyframes borderPulse {
+  0%, 100% {
+    border-color: rgba(251, 191, 36, 0.3);
+    box-shadow: 0 0 10px rgba(251, 191, 36, 0.1);
+  }
+  50% {
+    border-color: rgba(251, 191, 36, 0.5);
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.2);
+  }
+}
+
+.border-pulse {
+  animation: borderPulse 3s ease-in-out infinite;
+}
+
+/* Action button - game UI style */
+.btn-forge {
+  background: linear-gradient(180deg,
+    rgba(251, 191, 36, 0.2) 0%,
+    rgba(180, 83, 9, 0.3) 100%);
+  border: 1px solid rgba(251, 191, 36, 0.5);
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
+}
+
+.btn-forge:hover {
+  background: linear-gradient(180deg,
+    rgba(251, 191, 36, 0.3) 0%,
+    rgba(180, 83, 9, 0.4) 100%);
+  border-color: rgba(251, 191, 36, 0.7);
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.4),
+    0 0 20px rgba(251, 191, 36, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+.btn-forge:active {
+  transform: translateY(0);
+  box-shadow:
+    0 1px 4px rgba(0, 0, 0, 0.3),
+    inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Resistance bar - game HUD style */
+.resist-bar {
+  height: 4px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.resist-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  box-shadow: 0 0 6px currentColor;
+}
+
+/* Main container atmospheric background */
+.bg-forge-atmosphere {
+  background:
+    radial-gradient(ellipse at top, rgba(251, 191, 36, 0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom, rgba(2, 6, 23, 0.8) 0%, transparent 70%),
+    linear-gradient(180deg, #020617 0%, #0f172a 40%, #020617 100%);
+}
+
+/* Semi-transparent forge atmosphere - allows cosmic background to show through */
+.bg-forge-atmosphere-translucent {
+  background:
+    radial-gradient(ellipse at top, rgba(251, 191, 36, 0.015) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom, rgba(2, 6, 23, 0.25) 0%, transparent 70%),
+    linear-gradient(180deg, rgba(2, 6, 23, 0.3) 0%, rgba(15, 23, 42, 0.25) 40%, rgba(2, 6, 23, 0.3) 100%);
+}
+
+/* Subtle vignette overlay */
+.vignette-overlay {
+  position: relative;
+}
+
+.vignette-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center,
+    transparent 0%,
+    rgba(0, 0, 0, 0.3) 80%,
+    rgba(0, 0, 0, 0.5) 100%);
+}
+
+/* Film grain texture overlay for atmosphere */
+.grain-overlay {
+  position: relative;
+}
+
+.grain-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.03;
+  z-index: 100;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* Premium glass panel effect */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Ember glow animation for important elements */
+@keyframes emberGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(251, 191, 36, 0.7));
+  }
+}
+
+.ember-glow {
+  animation: emberGlow 2s ease-in-out infinite;
+}
+
+/* ============================================
+   PoB-Style Item Tooltip Font
+   ============================================ */
+
+/* Serif font matching Path of Building's FontinSmallCaps aesthetic */
+.font-pob {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

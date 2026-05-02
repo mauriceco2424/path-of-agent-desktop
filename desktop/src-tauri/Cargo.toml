@@ -1,0 +1,78 @@
+[package]
+name = "path-of-agent"
+version = "0.1.0"
+description = "Path of Agent Desktop - AI-powered Path of Exile build assistant"
+authors = ["Path of Agent"]
+edition = "2021"
+rust-version = "1.70"
+
+[lib]
+name = "path_of_agent_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+# Tauri core
+tauri = { version = "2", features = ["devtools"] }
+
+# Tauri plugins
+tauri-plugin-http = "2"
+tauri-plugin-updater = "2"
+tauri-plugin-shell = "2"
+tauri-plugin-opener = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-deep-link = "2"
+tauri-plugin-single-instance = { version = "2", features = ["deep-link"] }
+tauri-plugin-log = { version = "2", features = ["colored"] }
+
+# Serialization
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Async runtime (Tauri uses tokio internally)
+tokio = { version = "1", features = ["full"] }
+
+# HTTP client for Trade API requests
+reqwest = { version = "0.12", features = ["json", "rustls-tls"], default-features = false }
+
+# Error handling
+thiserror = "1"
+anyhow = "1"
+
+# Logging
+log = "0.4"
+
+# Directory utilities
+dirs = "5"
+
+# UUID generation for device IDs
+uuid = { version = "1", features = ["v4"] }
+
+# Crypto for PKCE S256 code challenge (OAuth)
+sha2 = "0.10"
+base64 = "0.22"
+urlencoding = "2"
+
+# Windows registry access (for finding PoB installation)
+[target.'cfg(windows)'.dependencies]
+winreg = "0.52"
+windows-sys = { version = "0.59", features = [
+    "Win32_System_JobObjects",
+    "Win32_System_Threading",
+    "Win32_Foundation",
+    "Win32_Security",
+] }
+
+[features]
+# This feature is used for production builds or when a dev server is not specified
+custom-protocol = ["tauri/custom-protocol"]
+
+[profile.release]
+# Optimize for size (keeps bundle small)
+lto = true
+opt-level = "s"
+strip = true
+codegen-units = 1
+panic = "abort"

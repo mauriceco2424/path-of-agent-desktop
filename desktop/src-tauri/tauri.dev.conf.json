@@ -1,0 +1,10 @@
+{
+  "productName": "Path of Agent Dev",
+  "app": {
+    "windows": [
+      {
+        "title": "Path of Agent (Dev)"
+      }
+    ]
+  }
+}

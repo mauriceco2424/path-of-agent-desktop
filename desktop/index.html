@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #0a0a0f; font-size: 17px;">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Path of Agent</title>
+  </head>
+  <body>
+    <div id="root" data-font-scale="normal"></div>
+    <script>try{var s=JSON.parse(localStorage.getItem('poa-settings'));if(s&&s.state){if(s.state.fontScale){document.getElementById('root').dataset.fontScale=s.state.fontScale;var m={compact:'15px',normal:'17px',large:'19px'};document.documentElement.style.fontSize=m[s.state.fontScale]||'17px'}if(s.state.brightness>0){document.documentElement.setAttribute('data-brightness',String(s.state.brightness))}}}catch(e){}</script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

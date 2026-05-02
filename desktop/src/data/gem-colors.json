@@ -1,0 +1,3271 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-12-22T17:58:52.174Z",
+  "source": "https://repoe-fork.github.io/gems.json",
+  "gems": {
+    "fireball": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal fireball": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "ice nova": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "ice nova of frostbolts": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "ice nova of deep freeze": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "icefire": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal ice nova": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "leap slam": {
+      "color": "red",
+      "isSupport": false
+    },
+    "leap slam of groundbreaking": {
+      "color": "red",
+      "isSupport": false
+    },
+    "riptide": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "charged dash": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blade flurry": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blade flurry of incision": {
+      "color": "green",
+      "isSupport": false
+    },
+    "sweep": {
+      "color": "red",
+      "isSupport": false
+    },
+    "discorectangle slam": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal sweep": {
+      "color": "red",
+      "isSupport": false
+    },
+    "wand teleport": {
+      "color": "white",
+      "isSupport": false
+    },
+    "ground slam": {
+      "color": "red",
+      "isSupport": false
+    },
+    "ground slam of earthshaking": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal ground slam": {
+      "color": "red",
+      "isSupport": false
+    },
+    "cleave": {
+      "color": "red",
+      "isSupport": false
+    },
+    "cleave of rage": {
+      "color": "red",
+      "isSupport": false
+    },
+    "shield charge": {
+      "color": "red",
+      "isSupport": false
+    },
+    "enduring cry": {
+      "color": "red",
+      "isSupport": false
+    },
+    "double strike": {
+      "color": "green",
+      "isSupport": false
+    },
+    "double strike of impaling": {
+      "color": "green",
+      "isSupport": false
+    },
+    "double strike of momentum": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal double strike": {
+      "color": "green",
+      "isSupport": false
+    },
+    "lacerate": {
+      "color": "green",
+      "isSupport": false
+    },
+    "lacerate of butchering": {
+      "color": "green",
+      "isSupport": false
+    },
+    "lacerate of haemorrhage": {
+      "color": "green",
+      "isSupport": false
+    },
+    "elemental hit": {
+      "color": "green",
+      "isSupport": false
+    },
+    "elemental hit of the spectrum": {
+      "color": "green",
+      "isSupport": false
+    },
+    "immortal call": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal immortal call": {
+      "color": "red",
+      "isSupport": false
+    },
+    "dual strike": {
+      "color": "green",
+      "isSupport": false
+    },
+    "dual strike of ambidexterity": {
+      "color": "green",
+      "isSupport": false
+    },
+    "whirling blades": {
+      "color": "green",
+      "isSupport": false
+    },
+    "frenzy": {
+      "color": "green",
+      "isSupport": false
+    },
+    "frenzy of onslaught": {
+      "color": "green",
+      "isSupport": false
+    },
+    "detonate dead": {
+      "color": "green",
+      "isSupport": false
+    },
+    "detonate dead of scavenging": {
+      "color": "green",
+      "isSupport": false
+    },
+    "detonate dead of chain reaction": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal detonate dead": {
+      "color": "green",
+      "isSupport": false
+    },
+    "volatile dead": {
+      "color": "green",
+      "isSupport": false
+    },
+    "volatile dead of confinement": {
+      "color": "green",
+      "isSupport": false
+    },
+    "volatile dead of seething": {
+      "color": "green",
+      "isSupport": false
+    },
+    "unearth": {
+      "color": "green",
+      "isSupport": false
+    },
+    "split arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "split arrow of splitting": {
+      "color": "green",
+      "isSupport": false
+    },
+    "added fire damage support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "faster attacks support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "greater multiple projectiles support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "lesser multiple projectiles support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "faster projectiles support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "added cold damage support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "additional accuracy support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "increased area of effect support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "added lightning damage support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "cold snap": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "cold snap of power": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal cold snap": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "raise zombie": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "raise zombie of slamming": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "raise zombie of falling": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "caustic arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "caustic arrow of poison": {
+      "color": "green",
+      "isSupport": false
+    },
+    "damage infusion": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "blood rage": {
+      "color": "green",
+      "isSupport": false
+    },
+    "ignite": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "righteous fire": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "righteous fire of arcane devotion": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal righteous fire": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "fire weapon": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "discharge": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "discharge of misery": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "portal": {
+      "color": "white",
+      "isSupport": false
+    },
+    "vaal breach": {
+      "color": "white",
+      "isSupport": false
+    },
+    "inspiration support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "increased critical strikes support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "increased critical damage support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "knockback support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "life leech support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "mana leech support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "added chaos damage support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "backstab": {
+      "color": "green",
+      "isSupport": false
+    },
+    "flicker strike": {
+      "color": "green",
+      "isSupport": false
+    },
+    "flicker strike of power": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal flicker strike": {
+      "color": "green",
+      "isSupport": false
+    },
+    "spark": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "spark of the nova": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "spark of unpredictability": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal spark": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "wip support": {
+      "color": "white",
+      "isSupport": true
+    },
+    "stun support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "ice spear": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "ice spear of splitting": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "pierce support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "trap support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "raise spectre": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "raise spectre of transience": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "infernal blow": {
+      "color": "red",
+      "isSupport": false
+    },
+    "infernal blow of immolation": {
+      "color": "red",
+      "isSupport": false
+    },
+    "glacial hammer": {
+      "color": "red",
+      "isSupport": false
+    },
+    "glacial hammer of shattering": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal glacial hammer": {
+      "color": "red",
+      "isSupport": false
+    },
+    "frost wall": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "wall of force": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "freezing pulse": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "shock nova": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "viper strike": {
+      "color": "green",
+      "isSupport": false
+    },
+    "viper strike of the mamba": {
+      "color": "green",
+      "isSupport": false
+    },
+    "phase run": {
+      "color": "green",
+      "isSupport": false
+    },
+    "melee physical damage support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "item quantity support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "item rarity support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "faster casting support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "explosive arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "temporal chains": {
+      "color": "green",
+      "isSupport": false
+    },
+    "elemental weakness": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "warlord's mark": {
+      "color": "red",
+      "isSupport": false
+    },
+    "punishment": {
+      "color": "red",
+      "isSupport": false
+    },
+    "enfeeble": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "assassin's mark": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "sniper's mark": {
+      "color": "green",
+      "isSupport": false
+    },
+    "despair": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "lightning warp": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal lightning warp": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon skeletons": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon skeletons of archers": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon skeletons of mages": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal summon skeletons": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "heavy strike": {
+      "color": "red",
+      "isSupport": false
+    },
+    "heavy strike of trarthus": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal heavy strike": {
+      "color": "red",
+      "isSupport": false
+    },
+    "dominating blow": {
+      "color": "red",
+      "isSupport": false
+    },
+    "dominating blow of inspiring": {
+      "color": "red",
+      "isSupport": false
+    },
+    "rain of arrows": {
+      "color": "green",
+      "isSupport": false
+    },
+    "rain of arrows of artillery": {
+      "color": "green",
+      "isSupport": false
+    },
+    "rain of arrows of saturation": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal rain of arrows": {
+      "color": "green",
+      "isSupport": false
+    },
+    "concentrated effect support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "minion damage support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "more duration support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "cold to fire support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "combustion support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "minion speed support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "minion life support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "elemental damage with attacks support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "bloodlust support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "life gain on hit support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "firestorm": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "firestorm of meteors": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "firestorm of pelting": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "lightning strike": {
+      "color": "green",
+      "isSupport": false
+    },
+    "lightning strike of arcing": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal lightning strike": {
+      "color": "green",
+      "isSupport": false
+    },
+    "tempest shield": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "molten shell": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal molten shell": {
+      "color": "red",
+      "isSupport": false
+    },
+    "power siphon": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "power siphon of the archmage": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal power siphon": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "puncture": {
+      "color": "green",
+      "isSupport": false
+    },
+    "puncture of shanking": {
+      "color": "green",
+      "isSupport": false
+    },
+    "lightning arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "lightning arrow of electrocution": {
+      "color": "green",
+      "isSupport": false
+    },
+    "haste": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal haste": {
+      "color": "green",
+      "isSupport": false
+    },
+    "purity of elements": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vitality": {
+      "color": "red",
+      "isSupport": false
+    },
+    "discipline": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal discipline": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "grace": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal grace": {
+      "color": "green",
+      "isSupport": false
+    },
+    "determination": {
+      "color": "red",
+      "isSupport": false
+    },
+    "anger": {
+      "color": "red",
+      "isSupport": false
+    },
+    "hatred": {
+      "color": "green",
+      "isSupport": false
+    },
+    "wrath": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "burning arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "burning arrow of vigour": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal burning arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "elemental proliferation support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "arrogance support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "clarity": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal clarity": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "culling strike support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "point blank support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "iron grip support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "iron will support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "damage on full life support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "spell totem support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "blastchain mine support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "detonate mines": {
+      "color": "white",
+      "isSupport": false
+    },
+    "shockwave totem": {
+      "color": "red",
+      "isSupport": false
+    },
+    "rejuvenation totem": {
+      "color": "red",
+      "isSupport": false
+    },
+    "icicle mine": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "icicle mine of fanning": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "icicle mine of sabotage": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "conversion trap": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "bear trap": {
+      "color": "green",
+      "isSupport": false
+    },
+    "bear trap of skewers": {
+      "color": "green",
+      "isSupport": false
+    },
+    "chance to flee support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "fire trap": {
+      "color": "green",
+      "isSupport": false
+    },
+    "fire trap of blasting": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal firetrap": {
+      "color": "green",
+      "isSupport": false
+    },
+    "decoy totem": {
+      "color": "red",
+      "isSupport": false
+    },
+    "devouring totem": {
+      "color": "red",
+      "isSupport": false
+    },
+    "ethereal knives": {
+      "color": "green",
+      "isSupport": false
+    },
+    "ethereal knives of lingering blades": {
+      "color": "green",
+      "isSupport": false
+    },
+    "ethereal knives of the massacre": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blind support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "ice shot": {
+      "color": "green",
+      "isSupport": false
+    },
+    "ice shot of penetration": {
+      "color": "green",
+      "isSupport": false
+    },
+    "creeping frost": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "arc": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "arc of surging": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "arc of oscillating": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal arc": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "arctic armour": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal arctic armour": {
+      "color": "green",
+      "isSupport": false
+    },
+    "holy flame totem": {
+      "color": "red",
+      "isSupport": false
+    },
+    "holy flame totem of ire": {
+      "color": "red",
+      "isSupport": false
+    },
+    "ballista totem support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "fire penetration support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "cold penetration support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "lightning penetration support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "elemental penetration support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "chain support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "split projectiles support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "fork support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "returning projectiles support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "flammability": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "frostbite": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "conductivity": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "storm burst": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "incinerate": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "incinerate of expanse": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "incinerate of venting": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "cyclone": {
+      "color": "green",
+      "isSupport": false
+    },
+    "cyclone of tumult": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal cyclone": {
+      "color": "green",
+      "isSupport": false
+    },
+    "multistrike support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "spell echo support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "melee splash support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "power charge on critical support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "searing bond": {
+      "color": "red",
+      "isSupport": false
+    },
+    "burning damage support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "elemental army support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "hextouch support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "reave": {
+      "color": "green",
+      "isSupport": false
+    },
+    "reave of refraction": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal reave": {
+      "color": "green",
+      "isSupport": false
+    },
+    "cast on critical strike support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "cast on melee kill support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "multiple traps support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "empower support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "lightning trap": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "lightning trap of sparking": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal lightning trap": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "smoke mine": {
+      "color": "green",
+      "isSupport": false
+    },
+    "endurance charge on melee stun support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "animate guardian": {
+      "color": "red",
+      "isSupport": false
+    },
+    "animate guardian of smiting": {
+      "color": "red",
+      "isSupport": false
+    },
+    "spectral shield throw": {
+      "color": "green",
+      "isSupport": false
+    },
+    "spectral shield throw of shattering": {
+      "color": "green",
+      "isSupport": false
+    },
+    "spectral shield throw of trarthus": {
+      "color": "green",
+      "isSupport": false
+    },
+    "spectral throw": {
+      "color": "green",
+      "isSupport": false
+    },
+    "spectral throw of materialising": {
+      "color": "green",
+      "isSupport": false
+    },
+    "spectral throw of trarthus": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal spectral throw": {
+      "color": "green",
+      "isSupport": false
+    },
+    "slower projectiles support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "less duration support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "cast on death support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "cast when damage taken support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "cast when stunned support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "animate weapon": {
+      "color": "green",
+      "isSupport": false
+    },
+    "animate weapon of self reflection": {
+      "color": "green",
+      "isSupport": false
+    },
+    "animate weapon of ranged arms": {
+      "color": "green",
+      "isSupport": false
+    },
+    "enhance support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "purity of fire": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal impurity of fire": {
+      "color": "red",
+      "isSupport": false
+    },
+    "purity of ice": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal impurity of ice": {
+      "color": "green",
+      "isSupport": false
+    },
+    "purity of lightning": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal impurity of lightning": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "storm call": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "storm call of trarthus": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal storm call": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "flameblast": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "flameblast of celerity": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "flameblast of contraction": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal flameblast": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "barrage": {
+      "color": "green",
+      "isSupport": false
+    },
+    "barrage of volley fire": {
+      "color": "green",
+      "isSupport": false
+    },
+    "ball lightning": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "ball lightning of orbiting": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "ball lightning of static": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vortex mine": {
+      "color": "green",
+      "isSupport": false
+    },
+    "wildfire": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vicious projectiles support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "summon raging spirit": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon raging spirit of enormity": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "flame surge": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "flame surge of combusting": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "enlighten support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "desecrate": {
+      "color": "green",
+      "isSupport": false
+    },
+    "flesh offering": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "bone offering": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "spirit offering": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "glacial cascade": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "glacial cascade of the fissure": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "block chance reduction support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "molten strike": {
+      "color": "red",
+      "isSupport": false
+    },
+    "molten strike of the zenith": {
+      "color": "red",
+      "isSupport": false
+    },
+    "convocation": {
+      "color": "white",
+      "isSupport": false
+    },
+    "pyroclast mine": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "pyroclast mine of sabotage": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "tornado shot": {
+      "color": "green",
+      "isSupport": false
+    },
+    "tornado shot of cloudburst": {
+      "color": "green",
+      "isSupport": false
+    },
+    "generosity support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "herald of ash": {
+      "color": "red",
+      "isSupport": false
+    },
+    "herald of ice": {
+      "color": "green",
+      "isSupport": false
+    },
+    "herald of thunder": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "herald of agony": {
+      "color": "green",
+      "isSupport": false
+    },
+    "herald of purity": {
+      "color": "red",
+      "isSupport": false
+    },
+    "poacher's mark": {
+      "color": "green",
+      "isSupport": false
+    },
+    "lightning tendrils": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "lightning tendrils of eccentricity": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "lightning tendrils of escalation": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "lightning circle": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "lightning channel": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "kinetic blast": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "kinetic blast of clustering": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "touch of god": {
+      "color": "red",
+      "isSupport": false
+    },
+    "blink arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blink arrow of bombarding clones": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blink arrow of prismatic clones": {
+      "color": "green",
+      "isSupport": false
+    },
+    "mirror arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "mirror arrow of bombarding clones": {
+      "color": "green",
+      "isSupport": false
+    },
+    "mirror arrow of prismatic clones": {
+      "color": "green",
+      "isSupport": false
+    },
+    "glacial shield swipe": {
+      "color": "green",
+      "isSupport": false
+    },
+    "swordstorm": {
+      "color": "red",
+      "isSupport": false
+    },
+    "eviscerate": {
+      "color": "red",
+      "isSupport": false
+    },
+    "static strike": {
+      "color": "red",
+      "isSupport": false
+    },
+    "physical to lightning support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "crushing fist": {
+      "color": "red",
+      "isSupport": false
+    },
+    "divine retribution": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vengeful cry": {
+      "color": "red",
+      "isSupport": false
+    },
+    "summon chaos golem": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon chaos golem of hordes": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon chaos golem of the maelström": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon ice golem": {
+      "color": "green",
+      "isSupport": false
+    },
+    "summon ice golem of hordes": {
+      "color": "green",
+      "isSupport": false
+    },
+    "summon ice golem of shattering": {
+      "color": "green",
+      "isSupport": false
+    },
+    "summon flame golem": {
+      "color": "red",
+      "isSupport": false
+    },
+    "summon flame golem of hordes": {
+      "color": "red",
+      "isSupport": false
+    },
+    "summon flame golem of the meteor": {
+      "color": "red",
+      "isSupport": false
+    },
+    "summon lightning golem": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon lightning golem of hordes": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "blasphemy support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "ice crash": {
+      "color": "red",
+      "isSupport": false
+    },
+    "ice crash of cadence": {
+      "color": "red",
+      "isSupport": false
+    },
+    "rallying cry": {
+      "color": "red",
+      "isSupport": false
+    },
+    "infernal cry": {
+      "color": "red",
+      "isSupport": false
+    },
+    "flame dash": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "flame dash of return": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vigilant strike": {
+      "color": "red",
+      "isSupport": false
+    },
+    "fortify support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "frost blades": {
+      "color": "green",
+      "isSupport": false
+    },
+    "frost blades of katabasis": {
+      "color": "green",
+      "isSupport": false
+    },
+    "ice bite support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "hypothermia support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "innervate support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "rolling magma": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "trap and mine damage support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "wild strike": {
+      "color": "green",
+      "isSupport": false
+    },
+    "wild strike of extremes": {
+      "color": "green",
+      "isSupport": false
+    },
+    "ice trap": {
+      "color": "green",
+      "isSupport": false
+    },
+    "ice trap of hollowness": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blast rain": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blast rain of trarthus": {
+      "color": "green",
+      "isSupport": false
+    },
+    "galvanic arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "galvanic arrow of energy": {
+      "color": "green",
+      "isSupport": false
+    },
+    "galvanic arrow of surging": {
+      "color": "green",
+      "isSupport": false
+    },
+    "static tether": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "bladefall": {
+      "color": "green",
+      "isSupport": false
+    },
+    "bladefall of volleys": {
+      "color": "green",
+      "isSupport": false
+    },
+    "bladefall of impaling": {
+      "color": "green",
+      "isSupport": false
+    },
+    "bladefall of trarthus": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blade vortex": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blade vortex of the scythe": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal blade vortex": {
+      "color": "green",
+      "isSupport": false
+    },
+    "frost bomb": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "frost bomb of instability": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "frost bomb of forthcoming": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "siege ballista": {
+      "color": "green",
+      "isSupport": false
+    },
+    "siege ballista of splintering": {
+      "color": "green",
+      "isSupport": false
+    },
+    "siege ballista of trarthus": {
+      "color": "green",
+      "isSupport": false
+    },
+    "orb of storms": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon stone golem": {
+      "color": "red",
+      "isSupport": false
+    },
+    "summon stone golem of hordes": {
+      "color": "red",
+      "isSupport": false
+    },
+    "summon stone golem of safeguarding": {
+      "color": "red",
+      "isSupport": false
+    },
+    "righteous lightning": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "earthquake": {
+      "color": "red",
+      "isSupport": false
+    },
+    "earthquake of amplification": {
+      "color": "red",
+      "isSupport": false
+    },
+    "critical strike affliction support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "contagion": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "contagion of subsiding": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "contagion of transference": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "wither": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "blight": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "blight of contagion": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "blight of atrophy": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "essence drain": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "essence drain of desperation": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "essence drain of wickedness": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "shadow blades": {
+      "color": "green",
+      "isSupport": false
+    },
+    "void manipulation support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "controlled destruction support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "swift affliction support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "cluster traps support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "ancestral protector": {
+      "color": "red",
+      "isSupport": false
+    },
+    "ancestral blademaster": {
+      "color": "red",
+      "isSupport": false
+    },
+    "ancestral warchief": {
+      "color": "red",
+      "isSupport": false
+    },
+    "sunder": {
+      "color": "red",
+      "isSupport": false
+    },
+    "sunder of earthbreaking": {
+      "color": "red",
+      "isSupport": false
+    },
+    "sunder of trarthus": {
+      "color": "red",
+      "isSupport": false
+    },
+    "frostbolt": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vortex": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vortex of projection": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "elemental focus support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "minefield support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "advanced traps support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "elemental projectiles": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "dark pact": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "dark pact of trarthus": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "scorching ray": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "scorching ray of immolation": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "cast while channelling support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "vaal soul harvesting": {
+      "color": "white",
+      "isSupport": true
+    },
+    "summon skeletons channelled": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "ignite proliferation support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "chance to bleed support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "chance to poison support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "deadly ailments support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "lesser reduced mana cost support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "decay support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "efficacy support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "vile toxins support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "maim support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "immolate support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "unbound ailments support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "brutality support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "ruthless support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "momentum support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "arcane surge support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "infernal sweep": {
+      "color": "red",
+      "isSupport": false
+    },
+    "cremation": {
+      "color": "green",
+      "isSupport": false
+    },
+    "cremation of exhuming": {
+      "color": "green",
+      "isSupport": false
+    },
+    "cremation of the volcano": {
+      "color": "green",
+      "isSupport": false
+    },
+    "bodyswap": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "bodyswap of sacrifice": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "spectral spinning weapon": {
+      "color": "green",
+      "isSupport": false
+    },
+    "tectonic slam": {
+      "color": "red",
+      "isSupport": false
+    },
+    "tectonic slam of cataclysm": {
+      "color": "red",
+      "isSupport": false
+    },
+    "infused channelling support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "volley support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "spell cascade support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "ancestral call support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "summon phantasm support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "mirage archer support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "vulnerability": {
+      "color": "red",
+      "isSupport": false
+    },
+    "capture monster": {
+      "color": "white",
+      "isSupport": false
+    },
+    "explosive trap": {
+      "color": "green",
+      "isSupport": false
+    },
+    "explosive trap of shrapnel": {
+      "color": "green",
+      "isSupport": false
+    },
+    "explosive trap of magnitude": {
+      "color": "green",
+      "isSupport": false
+    },
+    "siphoning trap": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "flamethrower trap": {
+      "color": "green",
+      "isSupport": false
+    },
+    "lightning spire trap": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "lightning spire trap of zapping": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "lightning spire trap of overloading": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "seismic trap": {
+      "color": "green",
+      "isSupport": false
+    },
+    "seismic trap of swells": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal flesh offering": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal earthquake": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal blight": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "charged traps support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "charged mines support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "vaal ancestral warchief": {
+      "color": "red",
+      "isSupport": false
+    },
+    "consecrated path": {
+      "color": "red",
+      "isSupport": false
+    },
+    "consecrated path of endurance": {
+      "color": "red",
+      "isSupport": false
+    },
+    "smite": {
+      "color": "red",
+      "isSupport": false
+    },
+    "smite of divine judgement": {
+      "color": "red",
+      "isSupport": false
+    },
+    "scourge arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "scourge arrow of menace": {
+      "color": "green",
+      "isSupport": false
+    },
+    "toxic rain": {
+      "color": "green",
+      "isSupport": false
+    },
+    "toxic rain of sporeburst": {
+      "color": "green",
+      "isSupport": false
+    },
+    "toxic rain of withering": {
+      "color": "green",
+      "isSupport": false
+    },
+    "summon holy relic": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon holy relic of conviction": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "withering touch support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "bonechill support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "winter orb": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "rending steel": {
+      "color": "red",
+      "isSupport": false
+    },
+    "lancing steel": {
+      "color": "green",
+      "isSupport": false
+    },
+    "lancing steel of spraying": {
+      "color": "green",
+      "isSupport": false
+    },
+    "storm brand": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "storm brand of indecision": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "war banner": {
+      "color": "red",
+      "isSupport": false
+    },
+    "dread banner": {
+      "color": "red",
+      "isSupport": false
+    },
+    "shattering steel": {
+      "color": "green",
+      "isSupport": false
+    },
+    "shattering steel of ammunition": {
+      "color": "green",
+      "isSupport": false
+    },
+    "multiple totems support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "armageddon brand": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "armageddon brand of volatility": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "armageddon brand of recall": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "brand recall": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "purifying flame": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "purifying flame of revelations": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "soulrend": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "soulrend of reaping": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "soulrend of the spiral": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "bane": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "bane of condemnation": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "energy leech support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "wave of conviction": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "wave of conviction of trarthus": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "zealotry": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "divine ire": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "divine ire of holy lightning": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "divine ire of disintegration": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "malevolence": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "intensify support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "unleash support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "steelskin": {
+      "color": "red",
+      "isSupport": false
+    },
+    "dash": {
+      "color": "green",
+      "isSupport": false
+    },
+    "bladestorm": {
+      "color": "red",
+      "isSupport": false
+    },
+    "bladestorm of uncertainty": {
+      "color": "red",
+      "isSupport": false
+    },
+    "blood and sand": {
+      "color": "red",
+      "isSupport": false
+    },
+    "berserk": {
+      "color": "red",
+      "isSupport": false
+    },
+    "perforate": {
+      "color": "red",
+      "isSupport": false
+    },
+    "perforate of duality": {
+      "color": "red",
+      "isSupport": false
+    },
+    "perforate of bloodshed": {
+      "color": "red",
+      "isSupport": false
+    },
+    "chain hook": {
+      "color": "red",
+      "isSupport": false
+    },
+    "chain hook of trarthus": {
+      "color": "red",
+      "isSupport": false
+    },
+    "close combat support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "shockwave support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "frostblink": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "frostblink of wintry blast": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "precision": {
+      "color": "green",
+      "isSupport": false
+    },
+    "flesh and stone": {
+      "color": "red",
+      "isSupport": false
+    },
+    "impale support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "pride": {
+      "color": "red",
+      "isSupport": false
+    },
+    "pulverise support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "rage support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "cobra lash": {
+      "color": "green",
+      "isSupport": false
+    },
+    "summon carrion golem": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon carrion golem of hordes": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon carrion golem of scavenging": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "withering step": {
+      "color": "green",
+      "isSupport": false
+    },
+    "plague bearer": {
+      "color": "green",
+      "isSupport": false
+    },
+    "feeding frenzy support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "predator support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "nightblade support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "meat shield support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "stormblast mine": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon skitterbots": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "high-impact mine support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "infernal legion support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "pestilent strike": {
+      "color": "green",
+      "isSupport": false
+    },
+    "venom gyre": {
+      "color": "green",
+      "isSupport": false
+    },
+    "swift assembly support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "shrapnel ballista": {
+      "color": "green",
+      "isSupport": false
+    },
+    "shrapnel ballista of steel": {
+      "color": "green",
+      "isSupport": false
+    },
+    "arrow nova support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "barrage support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "ensnaring arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "artillery ballista": {
+      "color": "green",
+      "isSupport": false
+    },
+    "artillery ballista of cross strafe": {
+      "color": "green",
+      "isSupport": false
+    },
+    "artillery ballista of focus fire": {
+      "color": "green",
+      "isSupport": false
+    },
+    "greater volley support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened added fire damage support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened ancestral call support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened brutality support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened burning damage support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened elemental damage with attacks support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened fire penetration support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened generosity support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened melee physical damage support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened melee splash support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened multistrike support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened added cold damage support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened arrow nova support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened cast on critical strike support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened chain support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened cold penetration support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened deadly ailments support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened fork support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened greater multiple projectiles support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened swift affliction support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened void manipulation support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened vicious projectiles support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "awakened added chaos damage support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened added lightning damage support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened blasphemy support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened cast while channelling support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened controlled destruction support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened hextouch support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened elemental focus support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened increased area of effect support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened lightning penetration support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened minion damage support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened spell cascade support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened spell echo support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened unbound ailments support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened unleash support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened empower support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "awakened enlighten support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "awakened enhance support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "arcane cloak": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "stormbind": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "stormbind of teleportation": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "kinetic bolt": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "kinetic bolt of fragmentation": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "blade blast": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blade blast of unloading": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blade blast of dagger detonation": {
+      "color": "green",
+      "isSupport": false
+    },
+    "spellslinger": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "spellslinger support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "archmage support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "second wind support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "arcanist brand": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "arcanist brand support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "intimidating cry": {
+      "color": "red",
+      "isSupport": false
+    },
+    "seismic cry": {
+      "color": "red",
+      "isSupport": false
+    },
+    "ancestral cry": {
+      "color": "red",
+      "isSupport": false
+    },
+    "penance brand": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "penance brand of dissipation": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "penance brand of conduction": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "wintertide brand": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "earthshatter": {
+      "color": "red",
+      "isSupport": false
+    },
+    "earthshatter of fragility": {
+      "color": "red",
+      "isSupport": false
+    },
+    "earthshatter of prominence": {
+      "color": "red",
+      "isSupport": false
+    },
+    "general's cry": {
+      "color": "red",
+      "isSupport": false
+    },
+    "general's cry support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "fist of war support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "swiftbrand support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "urgent orders support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "blazing salvo": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "void sphere": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "void sphere of rending": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "crackling lance": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "crackling lance of branching": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "crackling lance of disintegration": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "frost shield": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "splitting steel": {
+      "color": "green",
+      "isSupport": false
+    },
+    "splitting steel of ammunition": {
+      "color": "green",
+      "isSupport": false
+    },
+    "sigil of power": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "flame wall": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "impending doom support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "hexblast": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "hexblast of contradiction": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "hexblast of havoc": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "pinpoint support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "flammable shot": {
+      "color": "green",
+      "isSupport": false
+    },
+    "hydrosphere": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "trinity support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "death aura": {
+      "color": "white",
+      "isSupport": false
+    },
+    "envy": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "gluttony of elements": {
+      "color": "white",
+      "isSupport": false
+    },
+    "blinding aura": {
+      "color": "white",
+      "isSupport": false
+    },
+    "exsanguinate": {
+      "color": "red",
+      "isSupport": false
+    },
+    "exsanguinate of transmission": {
+      "color": "red",
+      "isSupport": false
+    },
+    "corrupting fever": {
+      "color": "red",
+      "isSupport": false
+    },
+    "bloodthirst support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "reap": {
+      "color": "red",
+      "isSupport": false
+    },
+    "petrified blood": {
+      "color": "red",
+      "isSupport": false
+    },
+    "cruelty support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "lifetap support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "increased duration support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "defiance banner": {
+      "color": "red",
+      "isSupport": false
+    },
+    "voltaxic burst": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "rage vortex": {
+      "color": "red",
+      "isSupport": false
+    },
+    "rage vortex of berserking": {
+      "color": "red",
+      "isSupport": false
+    },
+    "spectral helix": {
+      "color": "green",
+      "isSupport": false
+    },
+    "spectral helix of trarthus": {
+      "color": "green",
+      "isSupport": false
+    },
+    "battlemage's cry": {
+      "color": "red",
+      "isSupport": false
+    },
+    "battlemage's cry support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "earthbreaker support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "absolution": {
+      "color": "red",
+      "isSupport": false
+    },
+    "absolution of inspiring": {
+      "color": "red",
+      "isSupport": false
+    },
+    "forbidden rite": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "forbidden rite of soul sacrifice": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "ambush": {
+      "color": "green",
+      "isSupport": false
+    },
+    "manabond": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "blade trap": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blade trap of greatswords": {
+      "color": "green",
+      "isSupport": false
+    },
+    "blade trap of laceration": {
+      "color": "green",
+      "isSupport": false
+    },
+    "storm rain": {
+      "color": "green",
+      "isSupport": false
+    },
+    "storm rain of the conduit": {
+      "color": "green",
+      "isSupport": false
+    },
+    "storm rain of the fence": {
+      "color": "green",
+      "isSupport": false
+    },
+    "shield crush": {
+      "color": "red",
+      "isSupport": false
+    },
+    "shield crush of the chieftain": {
+      "color": "red",
+      "isSupport": false
+    },
+    "blood offering": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "focused ballista support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "summon reaper": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon reaper of revenants": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "summon reaper of eviscerating": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "behead support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "boneshatter": {
+      "color": "red",
+      "isSupport": false
+    },
+    "boneshatter of complex trauma": {
+      "color": "red",
+      "isSupport": false
+    },
+    "boneshatter of carnage": {
+      "color": "red",
+      "isSupport": false
+    },
+    "explosive concoction": {
+      "color": "green",
+      "isSupport": false
+    },
+    "explosive concoction of destruction": {
+      "color": "green",
+      "isSupport": false
+    },
+    "eye of winter": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "eye of winter of finality": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "eye of winter of transience": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "poisonous concoction": {
+      "color": "green",
+      "isSupport": false
+    },
+    "poisonous concoction of bouncing": {
+      "color": "green",
+      "isSupport": false
+    },
+    "[dnt] call of the wild": {
+      "color": "green",
+      "isSupport": false
+    },
+    "temporal rift": {
+      "color": "green",
+      "isSupport": false
+    },
+    "tornado": {
+      "color": "green",
+      "isSupport": false
+    },
+    "tornado of elemental turbulence": {
+      "color": "green",
+      "isSupport": false
+    },
+    "energy blade": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "soul link": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "flame link": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vampiric link": {
+      "color": "green",
+      "isSupport": false
+    },
+    "protective link": {
+      "color": "red",
+      "isSupport": false
+    },
+    "intuitive link": {
+      "color": "green",
+      "isSupport": false
+    },
+    "intuitive link support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "destructive link": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "divine blessing support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "mark on hit support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "eternal blessing support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "overcharge support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "lightning conduit": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "lightning conduit of the heavens": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "galvanic field": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "galvanic field of intensity": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "alchemist's mark": {
+      "color": "green",
+      "isSupport": false
+    },
+    "volcanic fissure": {
+      "color": "red",
+      "isSupport": false
+    },
+    "volcanic fissure of snaking": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal volcanic fissure": {
+      "color": "red",
+      "isSupport": false
+    },
+    "frozen legion": {
+      "color": "red",
+      "isSupport": false
+    },
+    "frozen legion of rallying": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal cleave": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal caustic arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal molten strike": {
+      "color": "red",
+      "isSupport": false
+    },
+    "cursed ground support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "hex bloom support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "vaal venom gyre": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal smite": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal blade flurry": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal reap": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal animate weapon": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal lightning arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal absolution": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal domination": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal ice shot": {
+      "color": "green",
+      "isSupport": false
+    },
+    "vaal firestorm": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "vaal rejuvenation totem": {
+      "color": "red",
+      "isSupport": false
+    },
+    "vaal split arrow": {
+      "color": "green",
+      "isSupport": false
+    },
+    "manaforged arrows support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "prismatic burst support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "snipe": {
+      "color": "green",
+      "isSupport": false
+    },
+    "snipe support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "conflagration": {
+      "color": "green",
+      "isSupport": false
+    },
+    "kinetic rain": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "kinetic rain of impact": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "somatic shell": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "thunderstorm": {
+      "color": "green",
+      "isSupport": false
+    },
+    "kinetic fusillade": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "quickstep": {
+      "color": "white",
+      "isSupport": false
+    },
+    "trauma support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "spellblade support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "devour support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "fresh meat support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "flamewood support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "corrupting cry support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "guardian's blessing support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "sacrifice support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "frigid bond support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "locus mine support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "sadism support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "controlled blaze support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "volatility support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "automation": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "automation support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "autoexertion": {
+      "color": "red",
+      "isSupport": false
+    },
+    "autoexertion support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "sacred wisps support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "overexertion support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "expert retaliation support": {
+      "color": "red",
+      "isSupport": true
+    },
+    "rupture support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "heart of flame": {
+      "color": "red",
+      "isSupport": false
+    },
+    "his burning message": {
+      "color": "red",
+      "isSupport": false
+    },
+    "call the pyre": {
+      "color": "red",
+      "isSupport": false
+    },
+    "the grey wind howls": {
+      "color": "red",
+      "isSupport": false
+    },
+    "return to dust": {
+      "color": "red",
+      "isSupport": false
+    },
+    "seize the flesh": {
+      "color": "red",
+      "isSupport": false
+    },
+    "violent desire": {
+      "color": "red",
+      "isSupport": false
+    },
+    "tender embrace": {
+      "color": "red",
+      "isSupport": false
+    },
+    "wreathed in light": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "glowing silhouette": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "enervating grasp": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "overcharged sinews": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "dance in the white": {
+      "color": "green",
+      "isSupport": false
+    },
+    "falling crystals": {
+      "color": "green",
+      "isSupport": false
+    },
+    "the great avalanche": {
+      "color": "blue",
+      "isSupport": false
+    },
+    "preserving stillness": {
+      "color": "green",
+      "isSupport": false
+    },
+    "focused channelling support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "windburst support": {
+      "color": "green",
+      "isSupport": true
+    },
+    "kinetic instability support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "living lightning support": {
+      "color": "blue",
+      "isSupport": true
+    },
+    "order: to me!": {
+      "color": "white",
+      "isSupport": false
+    }
+  }
+}
